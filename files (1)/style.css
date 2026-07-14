@@ -475,8 +475,16 @@ section{padding:88px 0;}
 .page-hero{
   padding:70px 0 60px;color:var(--cream);
 }
-.page-hero.moving{background:linear-gradient(160deg,var(--ink),#3a2a12);}
-.page-hero.cleaning{background:linear-gradient(160deg,var(--ink),#0f2621);}
+.page-hero.moving{
+  background:
+    linear-gradient(160deg, rgba(20,32,46,0.85) 0%, rgba(58,42,18,0.92) 85%),
+    url('../images/professional-furniture-moving-service.jpg') center/cover no-repeat;
+}
+.page-hero.cleaning{
+  background:
+    linear-gradient(160deg, rgba(20,32,46,0.85) 0%, rgba(15,38,33,0.92) 85%),
+    url('../images/sofa-deep-cleaning-service.jpg') center/cover no-repeat;
+}
 .subservice{
   display:grid;grid-template-columns:1fr 1fr;gap:36px;align-items:center;
   padding:50px 0;border-bottom:1px solid var(--line);
