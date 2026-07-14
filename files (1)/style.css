@@ -225,14 +225,41 @@ section{padding:88px 0;}
 
 /* ---------- الهيرو ---------- */
 .hero{
-  background:
-    radial-gradient(ellipse at 20% 0%, rgba(184,134,59,.35), transparent 55%),
-    radial-gradient(ellipse at 85% 100%, rgba(47,93,80,.35), transparent 55%),
-    var(--ink);
   color:var(--cream);
-  padding:120px 0 90px;
+  padding:140px 0 110px;
   position:relative;
   overflow:hidden;
+}
+.hero-slider {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+}
+.hero-slide {
+  position: absolute;
+  inset: 0;
+  background-size: cover;
+  background-position: center;
+  opacity: 0;
+  animation: hero-fade 12s infinite ease-in-out;
+}
+.hero-slide::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(160deg, rgba(20, 32, 46, 0.85) 0%, rgba(20, 32, 46, 0.93) 100%);
+}
+.slide-moving {
+  background-image: url('../images/professional-furniture-moving-service.jpg');
+}
+.slide-cleaning {
+  background-image: url('../images/sofa-deep-cleaning-service.jpg');
+  animation-delay: 6s;
+}
+@keyframes hero-fade {
+  0%, 8% { opacity: 0; }
+  16%, 50% { opacity: 1; }
+  58%, 100% { opacity: 0; }
 }
 .hero .wrap{position:relative;z-index:2;}
 .hero h1{font-size:clamp(2.1rem,4.4vw,3.4rem);max-width:14ch;color:var(--cream);}
