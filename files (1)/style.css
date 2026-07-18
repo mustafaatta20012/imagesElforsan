@@ -250,10 +250,10 @@ section{padding:88px 0;}
   background: linear-gradient(160deg, rgba(20, 32, 46, 0.85) 0%, rgba(20, 32, 46, 0.93) 100%);
 }
 .slide-moving {
-  background-image: url('../images/professional-furniture-moving-service.jpg');
+  background-image: url('images/professional-furniture-moving-service.jpg');
 }
 .slide-cleaning {
-  background-image: url('../images/sofa-deep-cleaning-service.jpg');
+  background-image: url('images/sofa-deep-cleaning-service.jpg');
   animation-delay: 6s;
 }
 @keyframes hero-fade {
@@ -308,12 +308,12 @@ section{padding:88px 0;}
 .pillar.moving{
   background:
     linear-gradient(160deg, rgba(143,100,39,0.82) 0%, rgba(58,42,18,0.92) 85%),
-    url('../images/ChatGPT Image Jul 12, 2026, 04_56_03 PM.png') center/cover no-repeat;
+    url('images/ChatGPT Image Jul 12, 2026, 04_56_03 PM.png') center/cover no-repeat;
 }
 .pillar.cleaning{
   background:
     linear-gradient(160deg, rgba(31,64,56,0.82) 0%, rgba(15,38,33,0.92) 85%),
-    url('../images/carpet-water-extraction-and-fast-drying-service.jpg') center/cover no-repeat;
+    url('images/carpet-water-extraction-and-fast-drying-service.jpg') center/cover no-repeat;
 }
 .pillar .tag{
   position:absolute;top:24px;inset-inline-end:28px;font-family:'Tajawal';
@@ -505,12 +505,12 @@ section{padding:88px 0;}
 .page-hero.moving{
   background:
     linear-gradient(160deg, rgba(20,32,46,0.85) 0%, rgba(58,42,18,0.92) 85%),
-    url('../images/professional-furniture-moving-service.jpg') center/cover no-repeat;
+    url('images/professional-furniture-moving-service.jpg') center/cover no-repeat;
 }
 .page-hero.cleaning{
   background:
     linear-gradient(160deg, rgba(20,32,46,0.85) 0%, rgba(15,38,33,0.92) 85%),
-    url('../images/sofa-deep-cleaning-service.jpg') center/cover no-repeat;
+    url('images/sofa-deep-cleaning-service.jpg') center/cover no-repeat;
 }
 .subservice{
   display:grid;grid-template-columns:1fr 1fr;gap:36px;align-items:center;
